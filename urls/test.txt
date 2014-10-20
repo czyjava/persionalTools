@@ -1,0 +1,34 @@
+^http://([\w-]*\.)*news.sina.com.cn/  ===   id+artibodyTitle
+^http://([\w-]*\.)*gd.sina.com.cn/  ===   id+artibodyTitle
+^http://([\w-]*\.)*gongyi.sina.com.cn/  ===   id+artibodyTitle
+^http://([\w-]*\.)*green.sina.com.cn/  ===   id+artibodyTitle
+^http://([\w-]*\.)*blog.sina.com.cn/  ===   class+titName SG_txta
+^http://([\w-]*\.)*club.([\w-]*\.)*sina.com.cn/ === class+mainsub+h1
+^http://([\w-]*\.)*bbs.([\w-]*\.)*sina.com.cn/ === class+mainbox viewthread+h1
+^http://([\w-]*\.)*forum.([\w-]*\.)*sina.com.cn/ === name+modactions+h1
+
+^http://([\w-]*\.)*quan.sohu.com/  ===   class+article-title
+^http://([\w-]*\.)*pic.news.sohu.com/  ===   class+ttl
+^http://([\w-]*\.)*gongyi.sohu.com/  ===   id+container+h1
+^http://([\w-]*\.)*blog.sohu.com/  ===   class+newBlog-title+span
+^http://([\w-]*\.)*club.([\w-]*\.)*sohu.com/  ===   class+postitle+em+l
+^http://([\w-]*\.)*news.sohu.com/  ===   itemprop+headline
+
+^http://([\w-]*\.)*news.qq.com/  ===   id+C-Main-Article-QQ+h1
+^http://([\w-]*\.)*gd.qq.com/  ===   id+C-Main-Article-QQ+h1
+^http://([\w-]*\.)*gongyi.qq.com/  ===   class+hd+h1
+^http://([\w-]*\.)*club.([\w-]*\.)*qq.com/  ===   id+thread_subject
+^http://([\w-]*\.)*bbs.([\w-]*\.)*qq.com/  ===   id+thread_subject
+^http://([\w-]*\.)*mygd.qq.com/  ===   id+thread_subject
+
+^http://([\w-]*\.)*news.163.com/  ===   id+h1title
+^http://([\w-]*\.)*view.163.com/  ===   class+brief+h3
+^http://([\w-]*\.)*gov.163.com/  ===   id+h1title
+^http://([\w-]*\.)*gongyi.163.com/  ===   id+h1title
+^http://([\w-]*\.)*blog.163.com/  ===   class+tcnt
+^http://([\w-]*\.)*bbs.([\w-]*\.)*163.com/  ===   class+tie-con-hd-title js-tietitle
+
+^http://([\w-]*\.)*news.ifeng.com/  ===   id+artical_topic
+^http://([\w-]*\.)*gongyi.ifeng.com/  ===   id+artical_topic
+^http://([\w-]*\.)*blog.ifeng.com/  ===   id+blog_main_left+a+L
+^http://([\w-]*\.)*bbs.ifeng.com/  ===   class+left+a+L
